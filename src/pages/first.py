@@ -299,7 +299,8 @@ def piece_dropdown(value, rate, stroke_count):
     # lat = json.dumps(coords)[0]
     # long = json.dumps(coords)[1]
     df = sessions_list[dates.index(value)]
-    df_past_gr_dr = df.loc[(df['GPS Lat.'] >= lat) & (df['GPS Lon.'] >= lon)]
+    # df_past_gr_dr = df.loc[(df['GPS Lat.'] >= lat) & (df['GPS Lon.'] >= lon)]
+    df_past_gr_dr = df
     df1 = df_past_gr_dr.loc[df_past_gr_dr['Stroke Rate'] >= rate]
     list_of_df = np.split(df1, np.flatnonzero(np.diff(df1['Total Strokes']) != 1) + 1)
     list_of_pieces = [i for i in list_of_df if len(i) >= stroke_count]
