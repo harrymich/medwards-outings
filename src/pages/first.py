@@ -179,6 +179,8 @@ dates = []
 for name in files:
     dates.append(read_session_datetime(name))
 
+dates.sort(key=lambda v: datetime.datetime.strptime(v[5:10], '%d %b'))
+
 x_axis = ['Stroke Count', 'Piece Time (s)', 'Piece Distance (m)']
 
 dash.register_page(__name__, path='/session_summary', name='Session Summary', title='Session Summary', image='wcbc_crest.jpg',
