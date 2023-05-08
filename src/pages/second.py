@@ -42,7 +42,10 @@ def read_session_date_time(fname):
     time_m = int(time_string[2:4])
 
     if "pm" in fname:
-        time_h = time_h + 12
+        if time_h == 12:
+            time_h = time_h
+        else:
+            time_h = time_h + 12
 
     session = datetime.datetime(date_y, date_m, date_d, time_h, time_m)
 
@@ -78,6 +81,7 @@ for i in range(file_count):
 dates = []
 for name in files:
     dates.append(read_session_date_time(name))
+
 # The below line was meant to show outing dates in the dropdown in order but since the csv files are not read in order,
 # it messes up the reading of the csv. The wrong date is shown for a given csv.
 # dates.sort(key=lambda v: datetime.datetime.strptime(v[5:10], '%d %b'))
