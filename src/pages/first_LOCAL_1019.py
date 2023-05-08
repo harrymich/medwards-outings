@@ -179,13 +179,9 @@ dates = []
 for name in files:
     dates.append(read_session_datetime(name))
 
-<<<<<<< HEAD
 # This line of code sorts the dropdown menu for selecting outings. It does not sort the underlying data. Do not use
 # until the latter is fixed as then the date selection and underlying data don't match up.
 # dates.sort(key=lambda v: (datetime.datetime.strptime(v[5:10], '%d %b'), datetime.datetime.strptime(v[18:26], '%H:%M %p')))
-=======
-dates.sort(key=lambda v: datetime.datetime.strptime(v[5:10], '%d %b'))
->>>>>>> b8be3dbc78dff26632b15ed02c492591884a6ccb
 
 x_axis = ['Stroke Count', 'Piece Time (s)', 'Piece Distance (m)']
 
