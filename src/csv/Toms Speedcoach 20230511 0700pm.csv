@@ -1,0 +1,33 @@
+Session Information:,,,,Device Information:,,,,Oarlock Information:,,,,Oarlock Settings:
+
+Name:,JustGo-614M,,,Name:,Tom's Speedcoach,,,Firmware:,---,,,Boat ID:,---
+Start Time:,05/11/23 07:00pm,,,Model:,SpeedCoach GPS Pro,,,,,,,Seat Number:,---
+Type:,Just Go,,,Serial:,2268560,,,,,,,Port Starboard:,---
+System of Units:,Meters/Split500,,,Firmware Version:,2.22,,,,,,,Oar Length:,---
+Speed Input:,GPS,,,Profile Version:,0.02,,,,,,,Inboard Length:,---
+,,,,Hardware Version:,Rev 11
+,,,,LiNK Version:,1.32
+
+
+Session Summary:
+
+Total Intervals,Total Distance (GPS),Total Distance (IMP),Total Elapsed Time,Avg Split (GPS),Avg Speed (GPS),Avg Split (IMP),Avg Speed (IMP),Avg Stroke Rate,Total Strokes,Distance/Stroke (GPS),Distance/Stroke (IMP),Avg Heart Rate,Avg Power,Avg Catch,Avg Slip,Avg Finish,Avg Wash,Avg Force Avg,Avg Work,Avg Force Max,Avg Max Force Angle,Start GPS Lat.,Start GPS Lon.
+(Interval),(Meters),(Meters),(HH:MM:SS.tenths),(/500),(M/S),(/500),(M/S),(SPM),(Strokes),(Meters),(Meters),(BPM),(Watts),(Degrees),(Degrees),(Degrees),(Degrees),(Newtons),(Joules),(Newtons),(Degrees),(Degrees),(Degrees)
+1,614.6,0.0,00:00:15.8,00:00:12.8,38.90,00:00:00.0,0.00,60.0,3,204.9,0.0,---,---,---,---,---,---,---,---,---,---,52.21485200,0.12295770
+
+
+Interval Summaries:
+
+Interval,Total Distance (GPS),Total Distance (IMP),Total Elapsed Time,Avg Split (GPS),Avg Speed (GPS),Avg Split (IMP),Avg Speed (IMP),Avg Stroke Rate,Total Strokes,Distance/Stroke (GPS),Distance/Stroke (IMP),Avg Heart Rate,Avg Power,Avg Catch,Avg Slip,Avg Finish,Avg Wash,Avg Force Avg,Avg Work,Avg Force Max,Avg Max Force Angle,Start GPS Lat.,Start GPS Lon.
+(Interval),(Meters),(Meters),(HH:MM:SS.tenths),(/500),(M/S),(/500),(M/S),(SPM),(Strokes),(Meters),(Meters),(BPM),(Watts),(Degrees),(Degrees),(Degrees),(Degrees),(Newtons),(Joules),(Newtons),(Degrees),(Degrees),(Degrees)
+1,614.6,0.0,00:00:15.8,00:00:12.8,38.90,00:00:00.0,0.00,60.0,3,204.9,0.0,---,---,---,---,---,---,---,---,---,---,52.21485200,0.12295770
+
+
+
+Per-Stroke Data:
+
+Interval,Distance (GPS),Distance (IMP),Elapsed Time,Split (GPS),Speed (GPS),Split (IMP),Speed (IMP),Stroke Rate,Total Strokes,Distance/Stroke (GPS),Distance/Stroke (IMP),Heart Rate,Power,Catch,Slip,Finish,Wash,Force Avg,Work,Force Max,Max Force Angle,GPS Lat.,GPS Lon.
+(Interval),(Meters),(Meters),(HH:MM:SS.tenths),(/500),(M/S),(/500),(M/S),(SPM),(Strokes),(Meters),(Meters),(BPM),(Watts),(Degrees),(Degrees),(Degrees),(Degrees),(Newtons),(Joules),(Newtons),(Degrees),(Degrees),(Degrees)
+1,0.0,0.0,00:00:04.8,00:00:00.0,0.00,---,---,12.5,1,0.0,0.0,---,---,---,---,---,---,---,---,---,---,52.21485200,0.12295770
+1,80.8,0.0,00:00:05.4,00:00:00.0,0.00,---,---,106.0,2,80.8,0.0,---,---,---,---,---,---,---,---,---,---,52.21419160,0.12248120
+1,607.4,0.0,00:00:14.1,00:00:00.0,0.00,00:00:00.0,0.00,61.0,3,526.6,0.0,---,---,---,---,---,---,---,---,---,---,52.21481840,0.12303790
