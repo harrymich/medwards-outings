@@ -357,7 +357,7 @@ def piece_summary(piece_value, x_axis, split_range, rate_range, colour_range, pi
     piece_data['Stroke Count'] = np.arange(piece_data.shape[0] + 1)[1:]
     piece_data['Piece Time (s)'] = [round(piece_data['Elapsed Time'].loc[i] - piece_data['Elapsed Time'].iloc[0], 2) for
                                     i in piece_data['Elapsed Time'].index]
-    piece_data['Piece Time (s)'] = piece_data['Piece Time (s)'].apply(lambda x: time.strftime("%M:%S", time.gmtime(x)))
+    piece_data['Piece Time (s)'] = piece_data['Piece Time (s)'].apply(lambda x: time.strftime("%H:%M:%S", time.gmtime(x)))
     piece_data['Piece Distance (m)'] = [
         round(piece_data['Distance (GPS)'].loc[i] - piece_data['Distance (GPS)'].iloc[0], 2) for i in
         piece_data['Distance (GPS)'].index]
