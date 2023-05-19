@@ -398,5 +398,4 @@ def piece_summary(piece_value, x_axis, split_range, rate_range, colour_range, pi
 
     fig.update_layout(height=500, hovermode="x unified", legend_traceorder="normal")
 
-    return stats[0].reset_index(names='').to_dict('records'), stats[1], stats[2], stats[3], piece_data.drop(
-        ['GPS Lon.', 'GPS Lat.'], axis=1).to_dict('records'), plot, fig
+    return stats[0].reset_index(names='').to_dict('records'), stats[1], stats[2], stats[3], piece_data.to_dict('records'), plot, fig
